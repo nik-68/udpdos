@@ -7,14 +7,15 @@ import os
 import struct
 import time
 import codecs
-
+red='\033[31m'
+green='\033[32m'
 
 os.system("clear")
 
-print("\033[95m\033[95m")
+print("\033[33m\033[33m")
 
 
-print("\033[95m TCP/UDP FLOOD \033[95m")
+print("\033[32m TCP/UDP FLOOD \033[32m")
 ip = str(input(" Ip: => "))
 port = int(input(" Port: => "))
 choice = str(input(" UDP(y/n): => "))
